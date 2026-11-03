@@ -1,0 +1,18 @@
+# scope.txt · Programa: SHEIN Security Response · Consultado: 1/11/2026
+# Objetivo del proyecto: *.shein.com
+
+*.shein.com
+
+# Fuera de alcance
+!security.shein.com
+
+# No incluidos en este ejercicio:
+# shein.in
+# shein.tw
+# shein.se
+# shein.com.hk
+# shein.com.vn
+# shein.com.mx
+# shein.co.uk
+# romwe.com
+# romwe.co.in
