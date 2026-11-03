@@ -1,1 +1,4 @@
-# he-ud1-knowyourtarget
+**Nombre**= Paula Bernal García
+
+**Objetivo**= *.shein.com
+
