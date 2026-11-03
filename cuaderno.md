@@ -1,1 +1,12 @@
+## Fichero security.txt
 
+```
+curl https:/shein.com/.well-known/security.txt
+<html>
+  <head><title>301 Moved Permanently</title></head>
+<body>
+  <center><h1>301 Moved Permanently</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+```
