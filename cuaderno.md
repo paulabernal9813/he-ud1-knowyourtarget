@@ -243,3 +243,18 @@ link-es.shein.com
 cinfo-v4.shein.com
 partner.seller-us.shein.com
 ```
+
+2026-11-03 21:25 · objetivo: shein.com
+**IPv4**: 52.39.206.44.
+**NameServer**: ns-893.awsdns-47.net.
+**Hosting Company**: Amazon - US West (Oregon) datacenter.
+**Domain Register**: hichina.com.
+**Technology**
+| Categoría | Tecnologías mostradas | Para qué se usa |
+| --- | --- | --- |
+| Cloud & PaaS | Amazon Web Services - EC2 | Cloud computing service (Elastic Compute Cloud) |
+| Network | Amazon Web Services - Route 53 | Cloud based Domain Name System (DNS) servie |
+| Server-side | SSL | A cryptographic protocol providing communication security over the Internet |
+| Client-side (JavaScript / CSS) | Asynchronous Javascript, Session Storage, Local Storage, JavaScript | Widely-supported programming language commonly used to power client-side dynamic content on websites |
+
+2026-11-03 21:30 · objetivo: 
