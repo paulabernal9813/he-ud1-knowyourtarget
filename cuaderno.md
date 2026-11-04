@@ -245,10 +245,15 @@ partner.seller-us.shein.com
 ```
 
 2026-11-03 21:25 · objetivo: shein.com
+
 **IPv4**: 52.39.206.44.
+
 **NameServer**: ns-893.awsdns-47.net.
+
 **Hosting Company**: Amazon - US West (Oregon) datacenter.
+
 **Domain Register**: hichina.com.
+
 **Technology**
 | Categoría | Tecnologías mostradas | Para qué se usa |
 | --- | --- | --- |
@@ -257,4 +262,51 @@ partner.seller-us.shein.com
 | Server-side | SSL | A cryptographic protocol providing communication security over the Internet |
 | Client-side (JavaScript / CSS) | Asynchronous Javascript, Session Storage, Local Storage, JavaScript | Widely-supported programming language commonly used to power client-side dynamic content on websites |
 
-2026-11-03 21:30 · objetivo: 
+2026-11-03 21:30 · objetivo: https:/shein.com/robots.txt
+```
+curl https:/shein.com/robots.txt
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+```
+
+2026-11-03 21:40 · objetivo: https://internetdb.shodan.io/52.39.206.44
+```
+$ curl -s https://internetdb.shodan.io/52.39.206.44
+{"cpes":["cpe:/a:openresty:openresty","cpe:/a:f5:nginx"],"hostnames":["shein.com","vn.shein.com","in.shein.com","ec2-52-39-206-44.us-west-2.compute.amazonaws.com"],"ip":"52.39.206.44","ports":[80,443],"tags":["cloud"],"vulns":[]}
+```
+
+2026-11-03 21:43 · objetivo: site:shein.com filetype:pdf
+
+No me salió nada
+
+2026-11-03 21:43 · objetivo: site:shein.com intitle:"index of"
+
+Me salieron unas 20 páginas y cada una de ellas me pedía una verificación de que no soy un robot, pero aunque lo haga bien me da verificación fallida.
+
+2026-11-03 21:50 · objetivo: theHarvester -d shein.com -b crtsh,duckduckgo,bing
+```
+$ theHarvester -d shein.com -b crtsh,duckduckgo,bing
+-bash: /etc/machine-id: Permission denied
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.11.1                                             *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+The following engines are not supported: {'bing'}
+
+[!] Invalid source.
+```
